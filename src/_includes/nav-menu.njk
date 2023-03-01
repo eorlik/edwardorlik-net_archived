@@ -25,6 +25,9 @@ $(document).ready(function(){
     $(this).toggleClass('active-nav-item');
     console.log(this.id);
     $("main").load("/"+this.id+"/index.html");
+    document.getElementById("nav").classList.remove("show");
+    document.getElementById("menu-btn").classList.remove("rotate")
+    
 });
   });
 </script>
