@@ -1,0 +1,13 @@
+---
+title: Projects
+tags: nav
+layout: base.njk
+---
+
+<div class="gallery">
+{%- for image in gallery -%}
+  <div>
+        <img src="{{image}}" alt="" style="width:500px">
+    </div>
+{%- endfor -%}
+</div>

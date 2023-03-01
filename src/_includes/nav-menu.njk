@@ -1,0 +1,6 @@
+<nav>
+<h2>Edward Orlik</h2>
+{% for i in collections.nav %}
+<a class="nav-link {{ 'active-nav-item' if i.url == page.url }}" href="/{{ i.fileSlug }}">{{ i.data.title }}</a>
+{% endfor %}
+</nav>
