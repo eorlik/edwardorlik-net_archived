@@ -3,10 +3,11 @@
 <nav id="nav">
     <div class="nav-links">
         {% for i in collections.nav %}
-        <a class="nav-link {{ 'active-nav-item' if i.url == page.url }}" href="/{{ i.fileSlug }}">{{ i.data.title }}</a>
+        <h1 class="nav-link {{ 'active-nav-item' if i.url == page.url }}" id="{{ i.fileSlug }}">{{ i.data.title }}</h1>
         {% endfor %}
     </div>
 </nav>
+
 
 <script>
 /* When the user clicks on the button,
@@ -15,4 +16,15 @@ function toggleMenu() {
   document.getElementById("nav").classList.toggle("show");
   document.getElementById("menu-btn").classList.toggle("rotate")
 }
+</script>
+
+<script>
+$(document).ready(function(){
+  $(".nav-link").click(function(){
+    $(".nav-link").removeClass('active-nav-item');
+    $(this).toggleClass('active-nav-item');
+    console.log(this.id);
+    $("main").load("/"+this.id+"/index.html");
+});
+  });
 </script>
