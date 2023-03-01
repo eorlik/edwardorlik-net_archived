@@ -14,7 +14,7 @@ Here, you can find a selection of my work and personal projects. I'm open to all
 
 You can email me: eorlik@gmail.com
 
-<img alt="A plan view, in black and white pen, of the Minet Estate, dated 1841. The image indicates a few fields with a road running along one edge, and smaller roads cutting down the middle." style="width: 600px" src="/assets/img/About/Minet1.png"/>
+<img alt="A plan view, in black and white pen, of the Minet Estate, dated 1841. The image indicates a few fields with a road running along one edge, and smaller roads cutting down the middle." style="width: 600px; display: block; margin: auto" src="/assets/img/About/Minet1.png"/>
 
 
 <img alt="A plan view, also in black and white pen, of the Minet Estate, dated 1885. In this images, the fields of 1841 have been filled with dozens of houses bordered on one edge by a large open space." style="width:600px" src="/assets/img/About/Minet2.png"/>
