@@ -15,8 +15,54 @@ main {
 }
 
 nav {
-  position:static;
-  width: 95vw;
+  left:0px;
+  background-color: #3E3DCB;
+  position:fixed;
+  width: 100vw;
+  height: 100vh;
+  top:0;
+  display:none;
+}
+
+.show {
+  display:block;
+}
+
+.nav-links {
+  padding-top: 25vh
+}
+
+.nav-link {
+  font-size: 2em;
+  position: relative;
+  bottom: 0;
+}
+
+#menu-btn {
+  width:1em;
+  z-index: 2;
+  text-align: center;
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0.5em;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  transition: ease-in-out;
+  animation-duration: 0.3s;
+  cursor:pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+
+}
+
+.rotate {
+  transform:rotate(45deg)
 }
 
 .nav-link {
@@ -29,7 +75,15 @@ nav {
   transition-duration: 0.2s;
 }
 
+.active-nav-item, .active-nav-item:hover {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 40em) {
+
+  #menu-btn {
+    visibility: hidden;
+  }
 
   p, img {
     max-width: 25em;
@@ -38,9 +92,15 @@ nav {
   nav {
       position:fixed;
       padding-left: 30px;
+      display: block;
+  }
+
+  .nav-links {
+    padding:0;
   }
 
   .nav-link {
+    font-size: initial;
     text-align: initial;
     width: fit-content;
   }
@@ -56,7 +116,6 @@ nav {
       transform-origin: bottom left;
       animation: ease-in-out;
       transition-duration: 0.2s;
-      text-decoration: underline;
   }
 
   main {

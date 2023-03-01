@@ -1,6 +1,18 @@
-<nav>
-<h2>Edward Orlik</h2>
-{% for i in collections.nav %}
-<a class="nav-link {{ 'active-nav-item' if i.url == page.url }}" href="/{{ i.fileSlug }}">{{ i.data.title }}</a>
-{% endfor %}
+<span onclick="toggleMenu()" id="menu-btn">+</span>
+    <h2 id="site-title">Edward Orlik</h2>
+<nav id="nav">
+    <div class="nav-links">
+        {% for i in collections.nav %}
+        <a class="nav-link {{ 'active-nav-item' if i.url == page.url }}" href="/{{ i.fileSlug }}">{{ i.data.title }}</a>
+        {% endfor %}
+    </div>
 </nav>
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function toggleMenu() {
+  document.getElementById("nav").classList.toggle("show");
+  document.getElementById("menu-btn").classList.toggle("rotate")
+}
+</script>

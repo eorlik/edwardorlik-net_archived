@@ -15,6 +15,7 @@
     "@11ty/eleventy": "^2.0.0"
   },
   "dependencies": {
-    "fast-glob": "^3.2.12"
+    "fast-glob": "^3.2.12",
+    "fitty": "^2.3.6"
   }
 }
