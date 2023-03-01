@@ -9,7 +9,6 @@ p, img, h2 {
   margin: 1em auto;
 }
 
-
 main {
   position: static;
 }
@@ -93,6 +92,12 @@ nav {
       position:fixed;
       padding-left: 30px;
       display: block;
+      top: 5em;
+  }
+
+  #site-title {
+    position: fixed;
+    left: 2em;
   }
 
   .nav-links {
