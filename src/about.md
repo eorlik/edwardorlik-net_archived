@@ -1,4 +1,4 @@
-<img alt="my kitchen, with a rustic table in the centre surrounded by four simple wooden chairs. In the background, bifold doors open onto a lush courtyard garden"  class="lazyload" style="display: block; margin: auto" src="/assets/img/About/kitchen.png"/>
+<img alt="my kitchen, with a rustic table in the centre surrounded by four simple wooden chairs. In the background, bifold doors open onto a lush courtyard garden"  class="lazyload" data-src="/assets/img/About/kitchen.png" style="display: block; margin: auto" src="/assets/img/About/kitchen.png"/>
 
 I am a designer, maker and public servant living on the former estate of a Huguenot family in Camberwell<sup>1</sup>, South London. 
 
