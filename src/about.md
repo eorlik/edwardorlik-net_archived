@@ -1,10 +1,10 @@
-<img alt="my kitchen, with a rustic table in the centre surrounded by four simple wooden chairs. In the background, bifold doors open onto a lush courtyard garden"  style="display: block; margin: auto" src="/assets/img/About/kitchen.png"/>
+<img alt="my kitchen, with a rustic table in the centre surrounded by four simple wooden chairs. In the background, bifold doors open onto a lush courtyard garden"  class="lazyload" style="display: block; margin: auto" src="/assets/img/About/kitchen.png"/>
 
 I am a designer, maker and public servant living on the former estate of a Huguenot family in Camberwell<sup>1</sup>, South London. 
 
-At the moment, I am studying for a MSc in Political Sociology at the London School of Economics.
+You can find a selection of my work and personal projects here, including pieces of furniture, websites, posters, paintings, sculpture, fashion, hand-bound books and architectural design. I'm open to all sorts of new projects and enquiries.
 
-Here, you can find a selection of my work and personal projects. I'm open to all sorts of new projects and enquiries.
+At the moment, I am studying for a MSc in Political Sociology at the London School of Economics.
 
 You can email me: eorlik@gmail.com
 
