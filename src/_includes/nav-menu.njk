@@ -3,7 +3,7 @@
 <nav id="nav">
     <div class="nav-links">
         {% for i in collections.nav %}
-        <h1 class="nav-link {{ 'active-nav-item' if i.url == page.url }}" id="{{ i.fileSlug }}">{{ i.data.title }}</h1>
+        <span class="nav-link {{ 'active-nav-item' if i.url == page.url }}" id="{{ i.fileSlug }}">{{ i.data.title }}</span>
         {% endfor %}
     </div>
 </nav>
