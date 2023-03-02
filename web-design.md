@@ -1,5 +1,6 @@
 ---
 title: Web Design
+layout: base.njk
 tags: nav
 ---
 
