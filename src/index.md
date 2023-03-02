@@ -8,11 +8,11 @@ tags: nav
 
 I am a designer, maker and public servant living on the former estate of a Huguenot family in Camberwell<sup>1</sup>, South London. 
 
-You can find a selection of my work and personal projects here, including pieces of furniture, websites, posters, paintings, sculpture, fashion, hand-bound books and architectural design. I'm open to all sorts of new projects and enquiries.
+You can find a selection of my work and personal projects here, including pieces of furniture, websites, posters, paintings, sculpture, fashion, hand-bound books and architectural design.
 
 At the moment, I am studying for a MSc in Political Sociology at the London School of Economics.
 
-You can email me: eorlik@gmail.com
+ I'm open to all sorts of new projects and enquiries, so please get in touch if you'd like to talk about commissions and collaborations. You can email me at eorlik@gmail.com, and you can find a copy of my CV <a href="/assets/edward-orlik-cv-2022.pdf">here.</a>
 
 <img alt="A plan view, in black and white pen, of the Minet Estate, dated 1841. The image indicates a few fields with a road running along one edge, and smaller roads cutting down the middle." style="wdisplay: block; margin: 3em auto -4em auto" src="/assets/img/About/Minet1.png"/>
 
