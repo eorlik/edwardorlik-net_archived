@@ -10,12 +10,14 @@ p, img, h2 {
 }
 
 a {
-  color: inherit;
+  color:inherit;
 }
 
 main {
   position: static;
 }
+
+
 
 nav {
   left:0px;
@@ -112,6 +114,7 @@ nav {
     font-size: initial;
     text-align: initial;
     width: fit-content;
+    cursor: pointer;
   }
 
   .nav-link:hover {

@@ -1,6 +1,6 @@
 ---
 title: Posters
-layout: posters.njk
+layout: 
 tags: nav
 ---
 
