@@ -9,31 +9,4 @@
 </nav>
 
 
-<script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function toggleMenu() {
-  document.getElementById("nav").classList.toggle("show");
-  document.getElementById("menu-btn").classList.toggle("rotate")
-}
-</script>
 
-<script>
-$(document).ready(function(){
-  $(".nav-link").click(function(){
-    $(".nav-link").removeClass('active-nav-item');
-    $(this).toggleClass('active-nav-item');
-    console.log(this.id);
-    if (this.id === "") {
-        $("main").load("/about/index.html");
-    } else {
-    $("main").load("/"+this.id+"/index.html");
-  }
-    
-
-    document.getElementById("nav").classList.remove("show");
-    document.getElementById("menu-btn").classList.remove("rotate")
-    
-});
-  });
-</script>
