@@ -1,5 +1,7 @@
 ---
-title: index
+title: About
 layout: base.njk
-tags: 
+tags: nav
 ---
+
+{% include "about.md" %}
