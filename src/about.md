@@ -8,7 +8,7 @@ At the moment, I am studying for a MSc in Political Sociology at the London Scho
 
 I'm open to all sorts of new projects and enquiries. If you like to talk about commissions and collaborations, you can email me here: eorlik@gmail.com.
 
-You can download my CV <a href="/assets/edward-orlik-cv-2022.jpg">here</a>.
+You can download my CV <a href="/assets/edward-orlik-cv-2022.pdf">here</a>.
 
 <img alt="A plan view, in black and white pen, of the Minet Estate, dated 1841. The image indicates a few fields with a road running along one edge, and smaller roads cutting down the middle." style="display: block; margin: 3em auto -4em auto" src="/assets/img/About/Minet1.png"/>
 
