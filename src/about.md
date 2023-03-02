@@ -2,11 +2,11 @@
 
 I am a designer, maker and public servant living on the former estate of a Huguenot family in Camberwell<sup>1</sup>, South London. 
 
-You can find a selection of my work and personal projects here, including pieces of furniture, websites, posters, paintings, sculpture, fashion, hand-bound books and architectural design. I'm open to all sorts of new projects and enquiries.
+You can find a selection of my work and personal projects here, including pieces of furniture, websites, posters, paintings, sculpture, fashion, hand-bound books and architectural design. 
 
 At the moment, I am studying for a MSc in Political Sociology at the London School of Economics.
 
-You can email me here: eorlik@gmail.com.
+I'm open to all sorts of new projects and enquiries. If you like to talk about commissions and collaborations, you can email me here: eorlik@gmail.com.
 
 You can download my CV <a href="/assets/edward-orlik-cv-2022.jpg">here</a>.
 
