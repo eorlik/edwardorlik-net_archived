@@ -1,0 +1,57 @@
+@media screen and (max-width: 40em) {
+    .outer-box {
+        visibility: hidden;
+    }
+}
+
+.outer-box {
+    transform: rotateX(10deg) rotateZ(12deg) translateZ(200px);
+    transform-style: preserve-3d;
+      position:fixed;
+    left:120px;
+    bottom:120px;
+  }
+  
+  .container {
+    position:absolute;
+    transform-style: preserve-3d;
+  }
+  
+  .container2 {
+    position:absolute;
+    transform-style: preserve-3d;
+    top: 60px;
+    color: white;
+  }
+  
+  .container3 {
+    color:red;
+    transform-style: preserve-3d;
+    top: 60px;
+  }
+  
+  #vertical-ring {
+    position:absolute;
+    left:50%;
+    transform-style: preserve-3d;
+    transform:rotateZ(70deg)
+  }
+  
+  .letter {
+    font-size: 60px;
+    display:inline;
+    text-transform: uppercase;
+    position:absolute;
+  }
+  
+  
+  /* keyframe animation for rotation */
+  @keyframes rotate {
+      from {
+          transform: rotateY(0deg);
+      }
+  
+      to {
+          transform: rotateY(-360deg);
+      }
+  }
