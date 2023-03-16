@@ -5,11 +5,12 @@
 }
 
 .outer-box {
-    transform: rotateX(10deg) rotateZ(12deg) translateZ(200px);
+    transform: translateZ(200px) rotateX(10deg) rotateZ(12deg);
     transform-style: preserve-3d;
-      position:fixed;
-    left:120px;
-    bottom:120px;
+      position:relative;
+    left:100px;
+    top:220px;
+
   }
   
   .container {
@@ -25,6 +26,7 @@
   }
   
   .container3 {
+    position:absolute;
     color:red;
     transform-style: preserve-3d;
     top: 60px;
@@ -32,7 +34,7 @@
   
   #vertical-ring {
     position:absolute;
-    left:50%;
+    left:90px;
     transform-style: preserve-3d;
     transform:rotateZ(70deg)
   }

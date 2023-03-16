@@ -23,7 +23,7 @@ nav {
   left:0px;
   background-color: #3E3DCB;
   position:fixed;
-  width: 100vw;
+  /*width: 100vw;*/
   height: 100vh;
   top:0;
   display:none;
