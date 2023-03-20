@@ -7,7 +7,7 @@ tags: nav
 <div class="row"> 
 
   <div class="column">
-    {% image "src/assets/img/posters/poster5.png", "a poster for a classical concert by the Janus Ensemble. It depicts an image of an oyster shell and a pearl." %}
+    {% image "/assets/img/posters/poster5.png", "a poster for a classical concert by the Janus Ensemble. It depicts an image of an oyster shell and a pearl." %}
     {% image "src/assets/img/posters/poster2.png", "a poster in pastel colours depicting a bucolic scene. In the foreground a woman in a flowing white gown dances around some cypress trees. The text reads Rite Up Close, a special promenade performance of Stravinky's Rite of Spring for families" %}
   </div>
 
