@@ -73,7 +73,7 @@ const imageShortcode = async (
     ${imgHtmlString}
   </picture>`;
 
-  return outdent`${picture}`;
+  return outdent`${picture}`
 };
 
 
@@ -84,7 +84,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/assets");
     eleventyConfig.addWatchTarget("./src/assets/");
     eleventyConfig.addPassthroughCopy("./src/scripts.js");
-    eleventyConfig.addShortcode('image', imageShortcode);
+    eleventyConfig.addAsyncShortcode('image', imageShortcode);
     return {
       dir: {
         input: "src",
