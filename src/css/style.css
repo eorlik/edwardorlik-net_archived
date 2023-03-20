@@ -94,6 +94,10 @@ nav {
     max-width: 25em;
   }
 
+  img {
+    height: auto;
+  }
+
   nav {
       position:fixed;
       padding-left: 30px;

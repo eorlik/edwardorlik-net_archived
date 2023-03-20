@@ -5,7 +5,7 @@ tags: nav
 
 I'm a fan of unusual and ingenious web design, sometimes a little disappointed by the prevalence of shortlived trends and corporate identities that make up much of the web. I've designed and coded this website more or less from scratch (I've used the JAMstack framework Eleventy to make things a little easier), as well as a website for my brilliant friend, the writer Amber Husain. [Take a look here.](https://www.amberhusain.com)
 
-<img alt="A screenshot of the website amberhusain.com"  style="display: block; margin: auto" src="/assets/img/Web/amber-website.png"/>
+{% image "src/assets/img/Web/amber-website.png", " screenshot of the website amberhusain.com" %}
 
 Below is a snapshot of another project from a couple of years ago. I was working in an office with a load of specialists, and in the course of my own work, I often had to consult with them. The problem was that it wasn't always easy to identify the right person to talk to &mdash; finding then usually required having a daisy chain of conversations with other people until _eventually_ you tracked them down.
 
@@ -15,6 +15,6 @@ This kind of thing does exist in the software-as-a-service world, but given the 
 
 The app is in a single html file which contains a bit of html for the page structure,  all of the CSS for styling, and a JSON file with data for all the cards. A javascipt script dynamically creates the cards based on the data in the JSON file, and another one creates a pop-up organisation chart for each person, which shows where they sit in relation to their manager, workmates and junior colleagues.
 
-<img alt="A screenshot of the Tech Trumps app"  style="display: block; margin: auto" src="/assets/img/Web/tech-trumps.png"/>
+{% image "src/assets/img/Web/tech-trumps.png", "A screenshot of the Tech Trumps app" %}
 
 It was pretty popular! I think people enjoyed the home-baked aesthetic, the fact that it was just for them, and the simple, intuitive tools.
