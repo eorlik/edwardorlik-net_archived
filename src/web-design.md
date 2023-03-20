@@ -15,6 +15,6 @@ This kind of thing does exist in the software-as-a-service world, but given the 
 
 The app is in a single html file which contains a bit of html for the page structure,  all of the CSS for styling, and a JSON file with data for all the cards. A javascipt script dynamically creates the cards based on the data in the JSON file, and another one creates a pop-up organisation chart for each person, which shows where they sit in relation to their manager, workmates and junior colleagues.
 
-<img alt="A screenshot of the website amberhusain.com"  style="display: block; margin: auto" src="/assets/img/Web/tech-trumps.png"/>
+<img alt="A screenshot of the Tech Trumps app"  style="display: block; margin: auto" src="/assets/img/Web/tech-trumps.png"/>
 
 It was pretty popular! I think people enjoyed the home-baked aesthetic, the fact that it was just for them, and the simple, intuitive tools.
