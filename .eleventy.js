@@ -14,7 +14,7 @@ const stringifyAttributes = (attributeMap) => {
 };
 
 
-const imageShortcode = async (
+const imageShortcode1 = async (
   src,
   alt,
   className = undefined,
@@ -77,6 +77,29 @@ const imageShortcode = async (
 };
 
 
+function imageShortcode(src, cls, alt, sizes, widths) {
+  let options = {
+    widths: widths,
+    formats: ['jpeg'],
+  };
+
+  // generate images, while this is async we don’t wait
+  Image(src, options);
+
+  let imageAttributes = {
+    class: cls,
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+  // get metadata even if the images are not fully generated yet
+  let metadata = Image.statsSync(src, options);
+  return Image.generateHTML(metadata, imageAttributes);
+}
+
+
+
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/css");
@@ -84,7 +107,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/assets");
     eleventyConfig.addWatchTarget("./src/assets/");
     eleventyConfig.addPassthroughCopy("./src/scripts.js");
-    eleventyConfig.addAsyncShortcode('image', imageShortcode);
+    eleventyConfig.addShortcode('image', imageShortcode);
     return {
       dir: {
         input: "src",
